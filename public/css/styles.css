@@ -1,5 +1,5 @@
 body {
-    color: #eeeeee;
+    color: #4D4D4D;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 650px;
     margin: 0 auto;
@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: linear-gradient(-46deg,#0b485b,#f56217,#2196f3,#f44336);
+    background: linear-gradient(-46deg,#F6CDE6,#FFE5BC,#DDF9D9,#ADD9FE);
     background-size: 400% 400%;
     animation: sid 10s ease infinite;
 
@@ -32,7 +32,7 @@ body {
 
 footer {
     color: black;
-    border-top: 1px solid #eeeeee;
+    border-top: 1px solid #4D4D4D;
     margin-top: 16px;
     padding: 16px 0;
 }
@@ -47,7 +47,7 @@ h1 {
 }
 
 header a {
-    color: #eeeeee;
+    color: #4D4D4D;
     margin-right: 16px;
     text-decoration: none;
 }
@@ -57,7 +57,7 @@ header a {
 }
 
 input {
-    border: 1px solid #cccccc;
+    border: 1px solid #4D4D4D;
     padding: 8px;
 }
 
