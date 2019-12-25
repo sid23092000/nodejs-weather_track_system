@@ -58,7 +58,7 @@ app.get('/weather', (req, res) => {
                 return res.send({ error })
             }
             res.send({
-                forecast: forecastData,
+                forecast: forecastData + "EXLUSIVELY MADE BY SIDDHESH JOSHI WITH THE HELP OF NASA AND MODI. JAI BJP AND PUBG",
                 location,
                 address: req.query.address
             })
