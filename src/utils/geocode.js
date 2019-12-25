@@ -22,7 +22,7 @@ const geocode = (address, callback) => {
       }
       catch(error){
           console.log(error.message)
-          callback('Unknown error occured', undefined);
+          callback(error.message, undefined);
       }    
         
     })
