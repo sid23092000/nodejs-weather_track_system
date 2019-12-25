@@ -43,7 +43,6 @@ app.get('/help', (req, res) => {
 
 app.get('/weather', (req, res) => {
     if(!req.query.address) {
-        console.log(req.query.address)
         return res.send({
             error: 'You must provide an object'
         })
@@ -58,7 +57,7 @@ app.get('/weather', (req, res) => {
                 return res.send({ error })
             }
             res.send({
-                forecast: forecastData + "EXLUSIVELY MADE BY SIDDHESH JOSHI WITH THE HELP OF NASA AND MODI. JAI BJP AND PUBG",
+                forecast: forecastData,
                 location,
                 address: req.query.address
             })
